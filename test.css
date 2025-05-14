@@ -1,0 +1,23 @@
+.containerr{
+    display: flex;
+    justify-content: space-between;
+ flex-direction: row;
+  margin: 20px;
+  width: 60%;
+  height: 250px;
+  background-color: #505050;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.containerr .right{
+  flex: 1;
+  padding: 15px;
+  align-items: center;
+}
+
+
+.containerr .left{
+  flex: 1;
+  padding: 15px;
+  align-items: center;
+}
